@@ -61,7 +61,7 @@ body{
 /* featured section */
 
 .featured{
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .featured-text{
@@ -132,5 +132,71 @@ body{
     
 }
 
+/* hot deal styles */
 
+.hot-container{
+border-radius: 8px;
+background: #e554730d;
+height: 450px;
+display: flex;
+align-items: center;
+justify-content: space-around;
+margin-bottom: 100px;
+}
 
+.hot-btn{
+    margin-top: 20px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: #E55473;
+    border: 0px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-left: 220px;
+    
+}
+
+.hot-title{
+color: #272727;
+font-size: 30px;
+font-weight: 800;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.off{
+    color: #E55473;
+}
+
+.hot-description{
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.Instagram-text{
+
+    text-align: center;
+}
+
+.Instagram-title{
+    margin-bottom: 20px;
+    color: #272727;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.Instagram-description{
+
+    color: #27272799;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}

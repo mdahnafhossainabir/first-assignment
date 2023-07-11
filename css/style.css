@@ -215,8 +215,101 @@ text-align: center;
     margin-bottom: 100px;
 }
 
+/* latest deal styles */
+
 .latest-deal{
+    background-image: url("../flower-assets/image-01.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 300px;
     width: 85vw;
     margin: 0 auto;
-    back
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.email{
+    
+    height: 40px;
+    width: 400px;
+    border-radius: 5px;
+    border: 0px;
+  
+}
+
+.email-btn{
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 5px;
+    background: #E55473;
+    border: 0px;
+    padding: 10px 20px;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+
+    
+
+.latest-description{
+    
+   margin-top: 20px;
+    color: #27272799;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+
+
+}
+
+.latest-deal h1{
+
+    color: #272727;
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+/* footer styles */
+
+.footer{
+
+    margin-top: 100px;
+    height: 300px;
+    background-color: #111010;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-sp{
+    color: #E55473;
+    
+}
+
+
+.footer-text{
+
+    text-align: center;
+
+}
+
+.footer-text h1 span{
+    color: #E55473;
+}
+
+.footer-text p{
+color: #ffffffe6;
+text-align: center;
+font-size: 15px;
+font-weight: 400;
+margin-top: 20px;
+
 }
